@@ -1,0 +1,210 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.6;
+  background-color: #f7fdf4;
+  color: #2c3e50;
+  padding: 1rem;
+}
+
+img {
+  vertical-align: middle;
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+}
+
+/* HEADER */
+header {
+  text-align: center;
+  padding: 1.5rem 1rem;
+  background-color: #dff0d8;
+  border-radius: 12px;
+  margin-bottom: 2rem;
+}
+
+header h1 {
+  font-size: 2rem;
+  color: #3c763d;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+header p {
+  font-size: 1rem;
+  color: #4a4a4a;
+  margin-top: 0.5rem;
+}
+
+/* SEARCH SECTION */
+.search-section {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+#searchInput {
+  width: 80%;
+  padding: 0.7rem 1rem;
+  font-size: 1rem;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* FILTER BUTTONS */
+.filter-section {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-bottom: 1.5rem;
+}
+
+.filter-btn {
+  background-color: #3c763d;
+  color: #fff;
+  border: none;
+  padding: 0.6rem 1rem;
+  font-size: 1rem;
+  border-radius: 10px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  transition: background-color 0.3s ease;
+}
+
+.filter-btn:hover {
+  background-color: #7bcf68;
+}
+
+/* TABS */
+.tab-buttons {
+  display: flex;
+  justify-content: center;
+  margin: 1.5rem 0;
+  gap: 1rem;
+}
+
+.tab-btn {
+  padding: 0.7rem 1.2rem;
+  border-radius: 8px;
+  border: 2px solid #3c763d;
+  background-color: transparent;
+  color: #3c763d;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.tab-btn.active {
+  background-color: #3c763d;
+  color: #fff;
+}
+
+/* TAB CONTENT */
+.tab-content {
+  display: none;
+}
+
+.tab-content.active {
+  display: block;
+}
+
+/* HEADINGS */
+main h2 {
+  margin: 1rem 0 0.5rem;
+  font-size: 1.4rem;
+  color: #388e3c;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+/* CARD CONTAINER */
+.card-container {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  margin-bottom: 2rem;
+}
+
+/* INDIVIDUAL CARD */
+.produce-card, .cart-card {
+  background-color: #ffffff;
+  padding: 1rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.card-title {
+  font-weight: 600;
+  font-size: 1.1rem;
+  color: #2e7d32;
+}
+
+.card-type {
+  font-size: 0.9rem;
+  color: #777;
+}
+
+.card-actions {
+  margin-top: auto;
+  display: flex;
+  gap: 0.5rem;
+  justify-content: flex-end;
+}
+
+/* BUTTONS INSIDE CARDS */
+.card-actions button {
+  padding: 0.4rem 0.8rem;
+  border: none;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.save-btn {
+  background-color: #4caf50;
+  color: #fff;
+}
+.save-btn:hover {
+  background-color: #388e3c;
+}
+
+.delete-btn {
+  background-color: #e53935;
+  color: #fff;
+}
+.delete-btn:hover {
+  background-color: #c62828;
+}
+
+.bought-btn {
+  background-color: #ff9800;
+  color: #fff;
+}
+.bought-btn:hover {
+  background-color: #f57c00;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  font-size: 0.9rem;
+  color: #757575;
+  border-top: 1px solid #e0e0e0;
+  padding: 1rem;
+  margin-top: 3rem;
+}
