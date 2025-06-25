@@ -365,38 +365,20 @@
     {
       "id": "2",
       "name": "Oranges",
-      "quantity": 3,
+      "quantity": 2,
       "type": "fruit",
       "price": "140",
       "image": "https://i.pinimg.com/736x/68/e2/04/68e2048c06f7c2a166f39985537ea54d.jpg",
-      "total": 420
-    },
-    {
-      "id": "39",
-      "name": "Sorghum",
-      "quantity": 1,
-      "type": "grain",
-      "price": "150",
-      "image": "https://i.pinimg.com/736x/ac/b5/f0/acb5f075af6644aa610168649890275a.jpg",
-      "total": 150
-    },
-    {
-      "id": "3",
-      "name": "Kiwi",
-      "quantity": 1,
-      "type": "fruit",
-      "price": "250",
-      "image": "https://i.pinimg.com/736x/41/17/60/4117603fc006fe1d0050e246a1b7191b.jpg",
-      "total": 250
+      "total": 280
     },
     {
       "id": "10",
       "name": "Grapes",
-      "quantity": 7,
+      "quantity": 6,
       "type": "fruit",
       "price": "330",
       "image": "https://i.pinimg.com/736x/32/77/d0/3277d07c611e70f2f1478195cb95a062.jpg",
-      "total": 2310
+      "total": 1980
     },
     {
       "id": "21",
@@ -408,13 +390,49 @@
       "total": 540
     },
     {
-      "id": "34",
-      "name": "Barley",
+      "id": "8",
+      "name": "Pineapple",
+      "quantity": 3,
+      "type": "fruit",
+      "price": "90",
+      "image": "https://i.pinimg.com/736x/ab/da/02/abda020322834091fe63461ae27b830b.jpg",
+      "total": 270
+    },
+    {
+      "id": "6",
+      "name": "Watermelon",
+      "quantity": 4,
+      "type": "fruit",
+      "price": "90",
+      "image": "https://i.pinimg.com/736x/81/ac/c8/81acc873734ae5b27d983cdede221c93.jpg",
+      "total": 360
+    },
+    {
+      "id": "5",
+      "name": "Apples",
+      "quantity": 3,
+      "type": "fruit",
+      "price": "180",
+      "image": "https://i.pinimg.com/736x/c4/34/fb/c434fb6a082488241dae279873e84b2e.jpg",
+      "total": 540
+    },
+    {
+      "id": "11",
+      "name": "Strawberries",
+      "quantity": 2,
+      "type": "fruit",
+      "price": "260",
+      "image": "https://i.pinimg.com/736x/93/87/99/938799507c4823888801346a404074dc.jpg",
+      "total": 520
+    },
+    {
+      "id": "4",
+      "name": "Passion Fruit",
       "quantity": 1,
-      "type": "grain",
-      "price": "130",
-      "image": "https://i.pinimg.com/736x/7a/01/86/7a018690b53c4686b8acffcdd5b25255.jpg",
-      "total": 130
+      "type": "fruit",
+      "price": "200",
+      "image": "https://i.pinimg.com/736x/e6/7b/db/e67bdbae6936c8d88fa0426225056a34.jpg",
+      "total": 200
     },
     {
       "id": "33",

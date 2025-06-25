@@ -19,8 +19,6 @@ img {
   object-fit: contain;
 }
 
-
-
 /* HEADER */
 header {
   text-align: center;
@@ -48,11 +46,11 @@ header p {
   color: #4a4a4a;
   margin-top: 0.5rem;
 }
+
 h1 img {
   width: 60px;
   height: 60px;
 }
-
 
 /* SEARCH SECTION */
 .search-section {
@@ -73,15 +71,10 @@ h1 img {
   border: none;
   cursor: pointer;
 }
-
 .search-btn img {
   width: 30px;
   height: 30px;
 }
-
-
-
-
 
 /* FILTER BUTTONS */
 .filter-section {
@@ -107,6 +100,7 @@ h1 img {
 .filter-btn:hover {
   background-color: #636B2F;
 }
+
 /* TABS */
 .browse-section {
   display: flex;
@@ -114,7 +108,7 @@ h1 img {
   margin: 1.5rem 0;
   gap: 1rem;
 }
-.tab-btn,.browse-btn{
+.tab-btn, .browse-btn {
   padding: 0.7rem 1.2rem;
   border-radius: 8px;
   border: 2px solid #3c763d;
@@ -124,6 +118,7 @@ h1 img {
   cursor: pointer;
   transition: all 0.3s ease;
 }
+
 /* TAB CONTENT */
 .tab-content {
   display: none;
@@ -131,8 +126,6 @@ h1 img {
 .tab-content.active {
   display: block;
 }
-
-
 
 /* HEADINGS */
 main h2 {
@@ -144,44 +137,62 @@ main h2 {
   gap: 0.5rem;
 }
 
-
 /* CARD CONTAINER */
 .card-container {
   display: grid;
   gap: 1rem;
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
   margin-bottom: 2rem;
+  justify-items: center;
 }
 
-/* INDIVIDUAL CARD */
-.produce-card ,.cart-card{
+/* CARD STYLES */
+.produce-card,
+.cart-card {
   background-color: #ffffff;
+  width: 100%;
+  max-width: 290px;
   padding: 1rem;
   border-radius: 12px;
-  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
+  transition: transform 0.2s ease;
+}
+.produce-card:hover {
+  transform: scale(1.02);
+}
+
+/* CARD CONTENT */
+.produce-card img,
+.cart-card img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 8px;
 }
 
 .card-title {
   font-weight: 600;
   font-size: 1.1rem;
   color: #2e7d32;
+  text-align: center;
 }
 .card-price {
   font-size: 0.9rem;
   color: #777;
+  text-align: center;
 }
 
 .card-actions {
   margin-top: auto;
   display: flex;
   gap: 0.5rem;
-  justify-content: flex-end;
+  justify-content: center;
 }
-.add-to-cart-btn{
-  background-color:orange;
+.add-to-cart-btn {
+  background-color: orange;
   color: #fff;
   border: none;
   padding: 0.5rem 1rem;
@@ -190,18 +201,18 @@ main h2 {
   transition: background-color 0.3s ease;
 }
 
-
-.card-del-edit{
+/* Edit/Delete Buttons */
+.card-del-edit {
   display: flex;
   gap: 0.5rem;
-  justify-content: flex-end;
+  justify-content: center;
   margin-top: 0.5rem;
 }
 .delete-btn {
-background-color: #e53935;
-color: #fff;
- border: none;
- height: 30px;
+  background-color: #e53935;
+  color: #fff;
+  border: none;
+  height: 30px;
   width: 120px;
   font-size: 1rem;
   border-radius: 8px;
@@ -209,12 +220,12 @@ color: #fff;
   transition: background-color 0.3s ease;
 }
 .delete-btn:hover {
-background-color: #c62828;
+  background-color: #c62828;
 }
-.edit-btn{
-background-color: #3c763d;
-color: #fff;
- border: none;
+.edit-btn {
+  background-color: #3c763d;
+  color: #fff;
+  border: none;
   font-size: 1rem;
   height: 30px;
   width: 120px;
@@ -223,15 +234,16 @@ color: #fff;
   transition: background-color 0.3s ease;
 }
 .edit-btn:hover {
-background-color: #636B2F;
+  background-color: #636B2F;
 }
 
-
+/* Quantity Input */
 .quantity-section {
   display: flex;
   align-items: center;
   margin-top: 0.5rem;
   gap: 5px;
+  justify-content: center;
 }
 .quantity-section label {
   font-size: 1rem;
@@ -246,18 +258,28 @@ background-color: #636B2F;
   border-radius: 6px;
 }
 .bought-btn {
-background-color: #ff9800;
-color: #fff;
-height: 30px;
-width: 80px;
-border-radius: 8px;
-cursor: pointer;
-transition: background-color 0.3s ease;
+  background-color: #F4BB44;
+  color: #fff;
+  height: 30px;
+  width: 90px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 .bought-btn:hover {
-background-color: #f57c00;
+  background-color: #f57c00;
 }
 
+/* Checkout Button */
+#checkoutBtn {
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
 
 /* FOOTER */
 footer {

@@ -10,53 +10,77 @@
 </head>
 <body>
   <header>
-    <h1><img src="./icons/barn.png" alt="barn"> GreenKart</h1>
+    <h1><img src="./icons/barn.png" alt="barn icon" title="GreenKart"> GreenKart</h1>
     <p>Fresh produce shopping from Kenyan farms.</p>
   </header>
 
   <main>
-    <!-- Search Bar -->
-<section class="search-section">
-  <div class="search-wrapper">
-    <input type="text" id="searchInput" placeholder="Search produce (e.g. Mangoes)" />
-    <button id="searchBtn" class="search-btn">
-      <img src="./icons/search.png" alt="Search" />
-    </button>
-  </div>
-</section>
-
-
-    <!-- Filter Buttons -->
-    <section class="filter-section">
-      <button class="filter-btn" data-type="fruit"><img src="./icons/fruit.png" alt="fruits"> Fruits</button>
-      <button class="filter-btn" data-type="vegetable"><img src="./icons/chinese-cabbage.png" alt="vegetables"> Vegetables</button>
-      <button class="filter-btn" data-type="grain"><img src="./icons/rice.png" alt="grains"> Grains</button>
+    <!-- Search Section -->
+    <section class="search-section">
+      <div class="search-wrapper">
+        <input type="text" id="searchInput" placeholder="Search produce (e.g. Mangoes)" />
+        <button id="searchBtn" class="search-btn" title="Search">
+          <img src="./icons/search.png" alt="Search icon" />
+        </button>
+      </div>
     </section>
 
-    
-     <!-- Browse & Cart Buttons -->
-<section class="browse-section">
-  <button id="browseAllBtn" class="browse-btn">Browse All Produce</button>
-  <button class="tab-btn" data-tab="cart">
-    <img src="./icons/shopping-cart.png" alt="shopping-cart"> My Cart
-  </button>
-</section>
+    <!-- Filter Section -->
+    <section class="filter-section">
+      <button class="filter-btn" data-type="fruit" title="Filter Fruits">
+        <img src="./icons/fruit.png" alt="Fruits icon"> Fruits
+      </button>
+      <button class="filter-btn" data-type="vegetable" title="Filter Vegetables">
+        <img src="./icons/chinese-cabbage.png" alt="Vegetables icon"> Vegetables
+      </button>
+      <button class="filter-btn" data-type="grain" title="Filter Grains">
+        <img src="./icons/rice.png" alt="Grains icon"> Grains
+      </button>
+    </section>
 
+    <!-- Browse All & Cart -->
+    <section class="browse-section">
+      <button id="browseAllBtn" class="browse-btn" title="Browse all produce">Browse All Produce</button>
+      <button class="tab-btn" data-tab="cart" title="View Cart">
+        <img src="./icons/shopping-cart.png" alt="Shopping cart icon"> My Cart
+      </button>
+    </section>
 
-    <!-- Tab Content -->
+    <!-- Produce Tab -->
     <div id="tab-produce" class="tab-content active">
       <h2>Available Produce</h2>
       <div id="produce-list" class="card-container"></div>
     </div>
 
+    <!-- Cart Tab -->
     <div id="tab-cart" class="tab-content">
-      <h2><img src="./icons/shopping-cart.png" alt="shopping-cart"> My Shopping Cart</h2>
+      <h2><img src="./icons/shopping-cart.png" alt="Cart icon"> My Shopping Cart</h2>
       <div id="cart-list" class="card-container"></div>
+
+      <!-- Checkout Section -->
+      <div class="checkout-section">
+        <label for="userLocation"><strong>Your Delivery Location:</strong></label>
+        <input type="text" id="deliveryDistance" placeholder="e.g. Nairobi" />
+
+        <button id="checkoutBtn" class="checkout-btn">Calculate Total</button>
+
+        <p id="deliveryCostDisplay" class="delivery-info"></p>
+
+        <div class="payment-info">
+          <p><strong>Send total to:</strong> <span style="color:green">Pochi La Biashara - 0742179262</span></p>
+          <p>Please confirm payment before dispatch.</p>
+        </div>
+      </div>
     </div>
   </main>
 
+  <!-- Footer -->
   <footer>
-    <p>&copy; 2025 GreenKart | Built with <img src="./icons/love.png" alt="love"> for Kenyan Farmers <img src="./icons/kenya.png" alt="kenya flag"></p>
+    <p>
+      &copy; 2025 GreenKart | Built with 
+      <img src="./icons/love.png" alt="love" title="Love"> for Kenyan Farmers 
+      <img src="./icons/kenya.png" alt="Kenya Flag" title="Kenya">
+    </p>
   </footer>
 </body>
 </html>
