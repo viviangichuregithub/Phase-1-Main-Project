@@ -4,7 +4,7 @@ GreenKart is a responsive and user-friendly web application designed to help use
 
 ## Screenshots
 
-> ![GreenKart Homepage](./screenshots/home)  
+> ![GreenKart Homepage](./screenshot/home)  
 
 ## Features
 
