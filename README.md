@@ -28,8 +28,8 @@ GreenKart is a responsive and user-friendly web application designed to help use
 - Search produce by typing in the input box.
 - Filter by category using the filter buttons.
 - Browse All to view all produce.
-- Add to Cart and adjust quantities as needed.
-- Go to My Cart, input your delivery location (e.g., Nairobi).
+- To add to cart, first click on the produce card to reveal the quantity input and "Add to cart" button, then select the quantity and click "add to cart" to add the item to your cart.
+- To checkout, Go to My Cart, input your delivery location (e.g., Nairobi).
 - Click Calculate Total to view delivery costs.
 - Pay via Pochi La Biashara: 0742179262.
 
@@ -41,6 +41,6 @@ GreenKart is a responsive and user-friendly web application designed to help use
 
 ## Author
 - **Vivian Gichure**
-- Frontend Web Developer Frontend Developer | Backend Developer| Kenya**
+- Frontend Web Developer Frontend Developer | Backend Developer| Kenya
 - **GitHub:** https://github.com/viviangichuregithub/Phase-1-Main-Project
 - **Email:** viviangichure@gmail.com
