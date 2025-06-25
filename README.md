@@ -40,7 +40,7 @@ GreenKart is a responsive and user-friendly web application designed to help use
 - Admin dashboard for produce management
 
 ## Author
-**Vivian Gichure**
-**Frontend Web Developer Frontend Developer | Backend Developer| Kenya**
-**GitHub:** https://github.com/viviangichuregithub/Phase-1-Main-Project
-**Email:** viviangichure@gmail.com
+- **Vivian Gichure**
+- Frontend Web Developer Frontend Developer | Backend Developer| Kenya**
+- **GitHub:** https://github.com/viviangichuregithub/Phase-1-Main-Project
+- **Email:** viviangichure@gmail.com
