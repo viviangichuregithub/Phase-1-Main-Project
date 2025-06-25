@@ -1,336 +1,429 @@
 {
   "produce": [
     {
-      "id": 1,
+      "id": "1",
       "name": "Mangoes",
       "type": "fruit",
-      "image":"https://i.pinimg.com/736x/d2/d0/f2/d2d0f2929f766da8ae322af638e5876c.jpg",
+      "image": "https://i.pinimg.com/736x/d2/d0/f2/d2d0f2929f766da8ae322af638e5876c.jpg",
+      "price": "120",
       "status": "available"
     },
     {
-      "id": 2,
+      "id": "2",
       "name": "Oranges",
       "type": "fruit",
-      "image":"https://i.pinimg.com/736x/68/e2/04/68e2048c06f7c2a166f39985537ea54d.jpg",
+      "image": "https://i.pinimg.com/736x/68/e2/04/68e2048c06f7c2a166f39985537ea54d.jpg",
+      "price": "140",
       "status": "available"
     },
     {
-      "id": 3,
+      "id": "3",
       "name": "Kiwi",
       "type": "fruit",
-      "image":"https://i.pinimg.com/736x/41/17/60/4117603fc006fe1d0050e246a1b7191b.jpg",
+      "image": "https://i.pinimg.com/736x/41/17/60/4117603fc006fe1d0050e246a1b7191b.jpg",
+      "price": "250",
       "status": "available"
     },
-     {
-      "id": 4,
+    {
+      "id": "4",
       "name": "Passion Fruit",
       "type": "fruit",
-      "image":"https://i.pinimg.com/736x/e6/7b/db/e67bdbae6936c8d88fa0426225056a34.jpg",
+      "image": "https://i.pinimg.com/736x/e6/7b/db/e67bdbae6936c8d88fa0426225056a34.jpg",
+      "price": "200",
       "status": "available"
     },
     {
-      "id": 5,
+      "id": "5",
       "name": "Apples",
       "type": "fruit",
-      "image":"https://i.pinimg.com/736x/c4/34/fb/c434fb6a082488241dae279873e84b2e.jpg",
+      "image": "https://i.pinimg.com/736x/c4/34/fb/c434fb6a082488241dae279873e84b2e.jpg",
+      "price": "180",
       "status": "available"
     },
-     {
-      "id": 6,
+    {
+      "id": "6",
       "name": "Watermelon",
       "type": "fruit",
-      "image":"https://i.pinimg.com/736x/81/ac/c8/81acc873734ae5b27d983cdede221c93.jpg",
+      "image": "https://i.pinimg.com/736x/81/ac/c8/81acc873734ae5b27d983cdede221c93.jpg",
+      "price": "90",
       "status": "available"
     },
-     {
-      "id": 7,
+    {
+      "id": "7",
       "name": "Dragon Fruit",
       "type": "fruit",
-      "image":"https://i.pinimg.com/736x/d3/84/71/d384718385630d26d558be82d49cf08b.jpg",
+      "image": "https://i.pinimg.com/736x/d3/84/71/d384718385630d26d558be82d49cf08b.jpg",
+      "price": "250",
       "status": "available"
     },
-     {
-      "id": 8,
+    {
+      "id": "8",
       "name": "Pineapple",
       "type": "fruit",
-      "image":"https://i.pinimg.com/736x/ab/da/02/abda020322834091fe63461ae27b830b.jpg",
+      "image": "https://i.pinimg.com/736x/ab/da/02/abda020322834091fe63461ae27b830b.jpg",
+      "price": "90",
       "status": "available"
     },
-     {
-      "id": 9,
+    {
+      "id": "9",
       "name": "Bananas",
       "type": "fruit",
-      "image":"https://i.pinimg.com/736x/bb/e0/e3/bbe0e3e2e43f86c3564d4b7322cdc537.jpg",
+      "image": "https://i.pinimg.com/736x/bb/e0/e3/bbe0e3e2e43f86c3564d4b7322cdc537.jpg",
+      "price": "80",
       "status": "available"
     },
-     {
-      "id": 10,
+    {
+      "id": "10",
       "name": "Grapes",
       "type": "fruit",
-      "image":"https://i.pinimg.com/736x/32/77/d0/3277d07c611e70f2f1478195cb95a062.jpg",
+      "image": "https://i.pinimg.com/736x/32/77/d0/3277d07c611e70f2f1478195cb95a062.jpg",
+      "price": "330",
       "status": "available"
     },
-     {
-      "id": 11,
+    {
+      "id": "11",
       "name": "Strawberries",
       "type": "fruit",
-      "image":"https://i.pinimg.com/736x/93/87/99/938799507c4823888801346a404074dc.jpg",
+      "image": "https://i.pinimg.com/736x/93/87/99/938799507c4823888801346a404074dc.jpg",
+      "price": "260",
       "status": "available"
     },
-     {
-      "id": 12,
+    {
+      "id": "12",
       "name": "Blueberries",
       "type": "fruit",
-      "image":"https://i.pinimg.com/736x/53/c4/8f/53c48f52f64c412eccfe939731718e33.jpg",
+      "image": "https://i.pinimg.com/736x/53/c4/8f/53c48f52f64c412eccfe939731718e33.jpg",
+      "price": "170",
       "status": "available"
     },
-     {
-      "id": 13,
+    {
+      "id": "13",
       "name": "Cherries",
       "type": "fruit",
-      "image":"https://i.pinimg.com/736x/32/20/db/3220db7b4a4af69a8ed25b800fab4a35.jpg",
+      "image": "https://i.pinimg.com/736x/32/20/db/3220db7b4a4af69a8ed25b800fab4a35.jpg",
+      "price": "200",
       "status": "available"
     },
-     {
-      "id": 14,
+    {
+      "id": "14",
       "name": "Peaches",
       "type": "fruit",
-      "image":"https://i.pinimg.com/736x/66/6d/87/666d879084cda4ab2387826a9cfde552.jpg",
+      "image": "https://i.pinimg.com/736x/66/6d/87/666d879084cda4ab2387826a9cfde552.jpg",
+      "price": "140",
       "status": "available"
     },
-     {
-      "id": 15,
+    {
+      "id": "15",
       "name": "Avocados",
       "type": "fruit",
-      "image":"https://i.pinimg.com/736x/ae/8d/5b/ae8d5bfe30e7ad3bc4affb0a8afcea65.jpg",
+      "image": "https://i.pinimg.com/736x/ae/8d/5b/ae8d5bfe30e7ad3bc4affb0a8afcea65.jpg",
+      "price": "220",
       "status": "available"
     },
     {
-      "id": 16,
+      "id": "16",
       "name": "Spinach",
       "type": "vegetable",
-      "image":"https://i.pinimg.com/736x/55/c2/8b/55c28b5df0280f8b82d38e2f1121650c.jpg",
+      "image": "https://i.pinimg.com/736x/55/c2/8b/55c28b5df0280f8b82d38e2f1121650c.jpg",
+      "price": "60",
       "status": "available"
     },
     {
-      "id": 17,
+      "id": "17",
       "name": "Cabbage",
       "type": "vegetable",
-      "image":"https://i.pinimg.com/736x/3d/11/da/3d11dab710f5ef4ac65239db60f82204.jpg",
+      "image": "https://i.pinimg.com/736x/3d/11/da/3d11dab710f5ef4ac65239db60f82204.jpg",
+      "price": "50",
       "status": "available"
     },
     {
-      "id": 18,
+      "id": "18",
       "name": "Broccoli",
       "type": "vegetable",
-      "image":"https://i.pinimg.com/736x/fe/e3/6f/fee36ffeea5e01306c10d1d6531d9251.jpg",
+      "image": "https://i.pinimg.com/736x/fe/e3/6f/fee36ffeea5e01306c10d1d6531d9251.jpg",
+      "price": "70",
       "status": "available"
     },
-     {
-      "id": 19,
+    {
+      "id": "19",
       "name": "Tomatoes",
       "type": "vegetable",
-      "image":"https://i.pinimg.com/736x/3c/6c/93/3c6c93bc29043e0b3e75271210efbac3.jpg",
+      "image": "https://i.pinimg.com/736x/3c/6c/93/3c6c93bc29043e0b3e75271210efbac3.jpg",
+      "price": "100",
       "status": "available"
     },
-     {
-      "id": 20,
+    {
+      "id": "20",
       "name": "Onions",
       "type": "vegetable",
-      "image":"https://i.pinimg.com/736x/70/fa/7e/70fa7ee69eb966ee412fba595f2571d9.jpg",
+      "image": "https://i.pinimg.com/736x/70/fa/7e/70fa7ee69eb966ee412fba595f2571d9.jpg",
+      "price": "100",
       "status": "available"
     },
-     {
-      "id": 21,
+    {
+      "id": "21",
       "name": "Garlic",
       "type": "vegetable",
-      "image":"https://i.pinimg.com/736x/f1/0e/42/f10e42f471f2b19abd9e7011988b0f71.jpg",
+      "image": "https://i.pinimg.com/736x/f1/0e/42/f10e42f471f2b19abd9e7011988b0f71.jpg",
+      "price": "180",
       "status": "available"
     },
-     {
-      "id": 22,
+    {
+      "id": "22",
       "name": "Bell Peppers",
       "type": "vegetable",
-      "image":"https://i.pinimg.com/736x/9a/22/0e/9a220e444f7e44ac7b4a54daefd32ca1.jpg",
+      "image": "https://i.pinimg.com/736x/9a/22/0e/9a220e444f7e44ac7b4a54daefd32ca1.jpg",
+      "price": "90",
       "status": "available"
     },
-     {
-      "id": 23,
+    {
+      "id": "23",
       "name": "Cucumbers",
       "type": "vegetable",
-      "image":"https://i.pinimg.com/736x/42/15/d3/4215d340ca1e7c81d1c06eb6a2105159.jpg",
+      "image": "https://i.pinimg.com/736x/42/15/d3/4215d340ca1e7c81d1c06eb6a2105159.jpg",
+      "price": "80",
       "status": "available"
     },
-     {
-      "id": 24,
+    {
+      "id": "24",
       "name": "Lettuce",
-      "type": "vegetable", 
-      "image":"https://i.pinimg.com/736x/fa/68/c2/fa68c2fde924ee09d0743ead54cb2462.jpg",
+      "type": "vegetable",
+      "image": "https://i.pinimg.com/736x/fa/68/c2/fa68c2fde924ee09d0743ead54cb2462.jpg",
+      "price": "60",
       "status": "available"
     },
-     {
-      "id": 25,
+    {
+      "id": "25",
       "name": "Eggplant",
-      "type": "vegetable", 
-      "image":"https://i.pinimg.com/736x/63/ef/07/63ef074c5f53dd422a542073158bfb7f.jpg",
+      "type": "vegetable",
+      "image": "https://i.pinimg.com/736x/63/ef/07/63ef074c5f53dd422a542073158bfb7f.jpg",
+      "price": "70",
       "status": "available"
     },
-     {
-      "id": 26,
+    {
+      "id": "26",
       "name": "Cauliflower",
       "type": "vegetable",
-      "image":"https://i.pinimg.com/736x/57/ab/ea/57abea3573374225b7a1cfcbdf8086fc.jpg",
+      "image": "https://i.pinimg.com/736x/57/ab/ea/57abea3573374225b7a1cfcbdf8086fc.jpg",
+      "price": "80",
       "status": "available"
     },
-     {
-      "id": 27,
+    {
+      "id": "27",
       "name": "Kale",
-      "type": "vegetable", 
-      "image":"https://i.pinimg.com/736x/86/b4/d8/86b4d830ebb291725d39ab0ff0dd26bd.jpg",
+      "type": "vegetable",
+      "image": "https://i.pinimg.com/736x/86/b4/d8/86b4d830ebb291725d39ab0ff0dd26bd.jpg",
+      "price": "90",
       "status": "available"
     },
-     {
-      "id": 28,
+    {
+      "id": "28",
       "name": "Potatoes",
-      "type": "vegetable", 
-      "image":"https://i.pinimg.com/736x/73/69/f0/7369f0690ecc6a9d0ac480d56ae178dc.jpg",
+      "type": "vegetable",
+      "image": "https://i.pinimg.com/736x/73/69/f0/7369f0690ecc6a9d0ac480d56ae178dc.jpg",
+      "price": "70",
       "status": "available"
     },
-     {
-      "id": 29,
+    {
+      "id": "29",
       "name": "Carrots",
-      "type": "vegetable", 
-      "image":"https://i.pinimg.com/736x/fb/20/d5/fb20d5e6a7b302991064e24628d965ce.jpg",
+      "type": "vegetable",
+      "image": "https://i.pinimg.com/736x/fb/20/d5/fb20d5e6a7b302991064e24628d965ce.jpg",
+      "price": "90",
       "status": "available"
     },
     {
-      "id": 30,
+      "id": "30",
       "name": "Sweet Potatoes",
-      "type": "vegetable", 
-      "image":"https://i.pinimg.com/736x/b4/89/8a/b4898a7d2e6747f81fb544b3b777a78d.jpg",
+      "type": "vegetable",
+      "image": "https://i.pinimg.com/736x/b4/89/8a/b4898a7d2e6747f81fb544b3b777a78d.jpg",
+      "price": "100",
       "status": "available"
     },
     {
-      "id": 31,
+      "id": "31",
       "name": "Rice",
       "type": "grain",
-      "image":"https://i.pinimg.com/736x/ac/e6/01/ace601ed6a0db43a2fa5471f3824f7c2.jpg",
+      "image": "https://i.pinimg.com/736x/ac/e6/01/ace601ed6a0db43a2fa5471f3824f7c2.jpg",
+      "price": "120",
       "status": "available"
     },
     {
-      "id": 32,
+      "id": "32",
       "name": "Wheat",
       "type": "grain",
-      "image":"https://i.pinimg.com/736x/43/61/19/436119a97cd01b97b6c0454e6e481372.jpg",
+      "image": "https://i.pinimg.com/736x/43/61/19/436119a97cd01b97b6c0454e6e481372.jpg",
+      "price": "190",
       "status": "available"
     },
     {
-      "id": 33,
+      "id": "33",
       "name": "Oats",
       "type": "grain",
-      "image":"https://i.pinimg.com/736x/33/9d/ba/339dbaf67be772093b280f423a5a915f.jpg",
+      "image": "https://i.pinimg.com/736x/33/9d/ba/339dbaf67be772093b280f423a5a915f.jpg",
+      "price": "300",
       "status": "available"
     },
     {
-      "id": 34,
+      "id": "34",
       "name": "Barley",
       "type": "grain",
-      "image":"https://i.pinimg.com/736x/7a/01/86/7a018690b53c4686b8acffcdd5b25255.jpg",
+      "image": "https://i.pinimg.com/736x/7a/01/86/7a018690b53c4686b8acffcdd5b25255.jpg",
+      "price": "130",
       "status": "available"
     },
     {
-      "id": 35,
+      "id": "35",
       "name": "green beans",
       "type": "grain",
-      "image":"https://i.pinimg.com/736x/33/82/7e/33827ebe8acc163293cb3dcb208a2d80.jpg",
+      "image": "https://i.pinimg.com/736x/33/82/7e/33827ebe8acc163293cb3dcb208a2d80.jpg",
+      "price": "170",
       "status": "available"
     },
     {
-      "id": 36,
-      "name": "Corn",
+      "id": "36",
+      "name": "Maize",
       "type": "grain",
-      "image":"https://i.pinimg.com/736x/1a/9f/32/1a9f320203abcb058fa5b54a1f9a2842.jpg",
+      "image": "https://i.pinimg.com/736x/1a/9f/32/1a9f320203abcb058fa5b54a1f9a2842.jpg",
+      "price": "100",
       "status": "available"
     },
     {
-      "id": 37,
+      "id": "37",
       "name": "Millet",
       "type": "grain",
-      "image":"https://i.pinimg.com/736x/d0/fd/03/d0fd039408ade351a755e75515ea3632.jpg",
+      "image": "https://i.pinimg.com/736x/f2/34/9a/f2349ab610549ccd86f31382e414d9b0.jpg",
+      "price": "120",
       "status": "available"
     },
     {
-      "id": 38,
+      "id": "38",
       "name": "lentils",
       "type": "grain",
-      "image":"https://i.pinimg.com/736x/3b/f4/9f/3bf49f1d8561c38fa24315221e929a5d.jpg",
+      "image": "https://i.pinimg.com/736x/3b/f4/9f/3bf49f1d8561c38fa24315221e929a5d.jpg",
+      "price": "200",
       "status": "available"
     },
     {
-      "id": 39,
+      "id": "39",
       "name": "Sorghum",
       "type": "grain",
-      "image":"https://i.pinimg.com/736x/ac/b5/f0/acb5f075af6644aa610168649890275a.jpg",
+      "image": "https://i.pinimg.com/736x/ac/b5/f0/acb5f075af6644aa610168649890275a.jpg",
+      "price": "150",
       "status": "available"
     },
     {
-      "id": 40,
+      "id": "40",
       "name": "Peas",
       "type": "grain",
-      "image":"https://i.pinimg.com/736x/00/ab/33/00ab336ccba9a030740b108ca847e2ba.jpg",
+      "image": "https://i.pinimg.com/736x/00/ab/33/00ab336ccba9a030740b108ca847e2ba.jpg",
+      "price": "180",
       "status": "available"
     },
     {
-      "id": 41,
+      "id": "41",
       "name": "Green grams",
       "type": "grain",
-      "image":"https://i.pinimg.com/736x/3c/69/f0/3c69f07e2eea9d07a28c90dcca80dce0.jpg",
+      "image": "https://i.pinimg.com/736x/3c/69/f0/3c69f07e2eea9d07a28c90dcca80dce0.jpg",
+      "price": "110",
       "status": "available"
     },
     {
-      "id": 42,
+      "id": "42",
       "name": "Beans",
       "type": "grain",
-      "image":"https://i.pinimg.com/736x/7d/31/51/7d315124d2c90a00ef278f576f85cc45.jpg",
+      "image": "https://i.pinimg.com/736x/7d/31/51/7d315124d2c90a00ef278f576f85cc45.jpg",
+      "price": "150",
       "status": "available"
     },
     {
-        "id": 43,
-        "name": "Black beans",
-        "type": "grain",
-        "image":"https://i.pinimg.com/736x/f4/9c/5a/f49c5a96ef3f2218ef9021cc1211e516.jpg",
-        "status": "available"
+      "id": "43",
+      "name": "Black beans",
+      "type": "grain",
+      "image": "https://i.pinimg.com/736x/f4/9c/5a/f49c5a96ef3f2218ef9021cc1211e516.jpg",
+      "price": "130",
+      "status": "available"
     },
     {
-        "id": 44,
-        "name": "Millets",
-        "type": "grain",
-        "image":"https://i.pinimg.com/736x/3c/0e/1f/3c0e1f2b4d5a6d8b7a9f5c8b4f6b2c3e.jpg",
-        "status": "available"
+      "id": "44",
+      "name": "Split peas",
+      "type": "grain",
+      "image": "https://i.pinimg.com/736x/09/38/6a/09386aea00c6eec59b004c178b4f11cb.jpg",
+      "price": "140",
+      "status": "available"
     },
     {
-        "id": 45,
-        "name": "Black-eyed peas",
-        "type": "grain",
-        "image":"https://i.pinimg.com/736x/26/21/e0/2621e083a934eaf45155a594dc2e6fde.jpg",
-        "status": "available"
+      "id": "45",
+      "name": "Black-eyed peas",
+      "type": "grain",
+      "image": "https://i.pinimg.com/736x/26/21/e0/2621e083a934eaf45155a594dc2e6fde.jpg",
+      "price": "120",
+      "status": "available"
     }
   ],
   "cart": [
     {
-      "id": 1,
-      "name": "Mango",
+      "id": "2",
+      "name": "Oranges",
+      "quantity": 3,
       "type": "fruit",
-      "status": "not bought",
-      "image": "https://i.pinimg.com/736x/d2/d0/f2/d2d0f2929f766da8ae322af638e5876c.jpg"
+      "price": "140",
+      "image": "https://i.pinimg.com/736x/68/e2/04/68e2048c06f7c2a166f39985537ea54d.jpg",
+      "total": 420
     },
     {
-      "id": 2,
-      "name": "Kale",
+      "id": "39",
+      "name": "Sorghum",
+      "quantity": 1,
+      "type": "grain",
+      "price": "150",
+      "image": "https://i.pinimg.com/736x/ac/b5/f0/acb5f075af6644aa610168649890275a.jpg",
+      "total": 150
+    },
+    {
+      "id": "3",
+      "name": "Kiwi",
+      "quantity": 1,
+      "type": "fruit",
+      "price": "250",
+      "image": "https://i.pinimg.com/736x/41/17/60/4117603fc006fe1d0050e246a1b7191b.jpg",
+      "total": 250
+    },
+    {
+      "id": "10",
+      "name": "Grapes",
+      "quantity": 7,
+      "type": "fruit",
+      "price": "330",
+      "image": "https://i.pinimg.com/736x/32/77/d0/3277d07c611e70f2f1478195cb95a062.jpg",
+      "total": 2310
+    },
+    {
+      "id": "21",
+      "name": "Garlic",
+      "quantity": 3,
       "type": "vegetable",
-      "status": "bought",
-      "image": "https://i.pinimg.com/736x/86/b4/d8/86b4d830ebb291725d39ab0ff0dd26bd.jpg"
+      "price": "180",
+      "image": "https://i.pinimg.com/736x/f1/0e/42/f10e42f471f2b19abd9e7011988b0f71.jpg",
+      "total": 540
+    },
+    {
+      "id": "34",
+      "name": "Barley",
+      "quantity": 1,
+      "type": "grain",
+      "price": "130",
+      "image": "https://i.pinimg.com/736x/7a/01/86/7a018690b53c4686b8acffcdd5b25255.jpg",
+      "total": 130
+    },
+    {
+      "id": "33",
+      "name": "Oats",
+      "quantity": 3,
+      "type": "grain",
+      "price": "300",
+      "image": "https://i.pinimg.com/736x/33/9d/ba/339dbaf67be772093b280f423a5a915f.jpg",
+      "total": 900
     }
   ]
 }
-

@@ -6,33 +6,42 @@
   <title>GreenKart</title>
   <link rel="stylesheet" href="./css/index.css" />
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
-  <script defer src="script.js"></script>
+  <script defer src="./src/index.js"></script>
 </head>
 <body>
   <header>
     <h1><img src="./icons/barn.png" alt="barn"> GreenKart</h1>
-    <p>Track and plan your weekly fresh produce shopping from Kenyan farms.</p>
+    <p>Fresh produce shopping from Kenyan farms.</p>
   </header>
 
   <main>
     <!-- Search Bar -->
-    <section class="search-section">
-      <input type="text" id="searchInput" placeholder="Search produce (e.g. Mangoes)" />
-    </section>
+<section class="search-section">
+  <div class="search-wrapper">
+    <input type="text" id="searchInput" placeholder="Search produce (e.g. Mangoes)" />
+    <button id="searchBtn" class="search-btn">
+      <img src="./icons/search.png" alt="Search" />
+    </button>
+  </div>
+</section>
+
 
     <!-- Filter Buttons -->
     <section class="filter-section">
       <button class="filter-btn" data-type="fruit"><img src="./icons/fruit.png" alt="fruits"> Fruits</button>
       <button class="filter-btn" data-type="vegetable"><img src="./icons/chinese-cabbage.png" alt="vegetables"> Vegetables</button>
       <button class="filter-btn" data-type="grain"><img src="./icons/rice.png" alt="grains"> Grains</button>
-      <button class="filter-btn" data-type="all"><img src="./icons/farmer.png" alt="all"> All Produce</button>
     </section>
 
-    <!-- Tab Buttons -->
-    <div class="tab-buttons">
-      <button class="tab-btn active" data-tab="produce"> Available Produce</button>
-      <button class="tab-btn" data-tab="cart"><img src="./icons/shopping-cart.png" alt="shopping-cart"> My Cart</button>
-    </div>
+    
+     <!-- Browse & Cart Buttons -->
+<section class="browse-section">
+  <button id="browseAllBtn" class="browse-btn">Browse All Produce</button>
+  <button class="tab-btn" data-tab="cart">
+    <img src="./icons/shopping-cart.png" alt="shopping-cart"> My Cart
+  </button>
+</section>
+
 
     <!-- Tab Content -->
     <div id="tab-produce" class="tab-content active">

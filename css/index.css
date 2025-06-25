@@ -14,10 +14,12 @@ body {
 
 img {
   vertical-align: middle;
-  width: 20px;
-  height: 20px;
+  width: 30px;
+  height: 30px;
   object-fit: contain;
 }
+
+
 
 /* HEADER */
 header {
@@ -26,6 +28,10 @@ header {
   background-color: #dff0d8;
   border-radius: 12px;
   margin-bottom: 2rem;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
 }
 
 header h1 {
@@ -42,13 +48,18 @@ header p {
   color: #4a4a4a;
   margin-top: 0.5rem;
 }
+h1 img {
+  width: 60px;
+  height: 60px;
+}
+
 
 /* SEARCH SECTION */
 .search-section {
   text-align: center;
   margin-bottom: 1rem;
+  position: sticky;
 }
-
 #searchInput {
   width: 80%;
   padding: 0.7rem 1rem;
@@ -57,6 +68,20 @@ header p {
   border: 1px solid #ccc;
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
+.search-btn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.search-btn img {
+  width: 30px;
+  height: 30px;
+}
+
+
+
+
 
 /* FILTER BUTTONS */
 .filter-section {
@@ -66,7 +91,6 @@ header p {
   flex-wrap: wrap;
   margin-bottom: 1.5rem;
 }
-
 .filter-btn {
   background-color: #3c763d;
   color: #fff;
@@ -80,20 +104,17 @@ header p {
   gap: 0.5rem;
   transition: background-color 0.3s ease;
 }
-
 .filter-btn:hover {
-  background-color: #7bcf68;
+  background-color: #636B2F;
 }
-
 /* TABS */
-.tab-buttons {
+.browse-section {
   display: flex;
   justify-content: center;
   margin: 1.5rem 0;
   gap: 1rem;
 }
-
-.tab-btn {
+.tab-btn,.browse-btn{
   padding: 0.7rem 1.2rem;
   border-radius: 8px;
   border: 2px solid #3c763d;
@@ -103,20 +124,15 @@ header p {
   cursor: pointer;
   transition: all 0.3s ease;
 }
-
-.tab-btn.active {
-  background-color: #3c763d;
-  color: #fff;
-}
-
 /* TAB CONTENT */
 .tab-content {
   display: none;
 }
-
 .tab-content.active {
   display: block;
 }
+
+
 
 /* HEADINGS */
 main h2 {
@@ -128,6 +144,7 @@ main h2 {
   gap: 0.5rem;
 }
 
+
 /* CARD CONTAINER */
 .card-container {
   display: grid;
@@ -137,7 +154,7 @@ main h2 {
 }
 
 /* INDIVIDUAL CARD */
-.produce-card, .cart-card {
+.produce-card ,.cart-card{
   background-color: #ffffff;
   padding: 1rem;
   border-radius: 12px;
@@ -152,8 +169,7 @@ main h2 {
   font-size: 1.1rem;
   color: #2e7d32;
 }
-
-.card-type {
+.card-price {
   font-size: 0.9rem;
   color: #777;
 }
@@ -164,40 +180,84 @@ main h2 {
   gap: 0.5rem;
   justify-content: flex-end;
 }
-
-/* BUTTONS INSIDE CARDS */
-.card-actions button {
-  padding: 0.4rem 0.8rem;
+.add-to-cart-btn{
+  background-color:orange;
+  color: #fff;
   border: none;
-  border-radius: 6px;
-  font-size: 0.9rem;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
 
-.save-btn {
-  background-color: #4caf50;
-  color: #fff;
-}
-.save-btn:hover {
-  background-color: #388e3c;
-}
 
+.card-del-edit{
+  display: flex;
+  gap: 0.5rem;
+  justify-content: flex-end;
+  margin-top: 0.5rem;
+}
 .delete-btn {
-  background-color: #e53935;
-  color: #fff;
+background-color: #e53935;
+color: #fff;
+ border: none;
+ height: 30px;
+  width: 120px;
+  font-size: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 .delete-btn:hover {
-  background-color: #c62828;
+background-color: #c62828;
+}
+.edit-btn{
+background-color: #3c763d;
+color: #fff;
+ border: none;
+  font-size: 1rem;
+  height: 30px;
+  width: 120px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.edit-btn:hover {
+background-color: #636B2F;
 }
 
+
+.quantity-section {
+  display: flex;
+  align-items: center;
+  margin-top: 0.5rem;
+  gap: 5px;
+}
+.quantity-section label {
+  font-size: 1rem;
+  color: #555;
+}
+.qty-input {
+  width: 50px;
+  height: 30px;
+  padding: 0.4rem;
+  font-size: 1rem;
+  border: 1px solid grey;
+  border-radius: 6px;
+}
 .bought-btn {
-  background-color: #ff9800;
-  color: #fff;
+background-color: #ff9800;
+color: #fff;
+height: 30px;
+width: 80px;
+border-radius: 8px;
+cursor: pointer;
+transition: background-color 0.3s ease;
 }
 .bought-btn:hover {
-  background-color: #f57c00;
+background-color: #f57c00;
 }
+
 
 /* FOOTER */
 footer {
