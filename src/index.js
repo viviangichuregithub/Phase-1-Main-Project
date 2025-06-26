@@ -32,7 +32,7 @@ document.addEventListener("DOMContentLoaded", () => {
   };
 
   // Fetch produce from backend
-  fetch("http://localhost:3000/produce")
+  fetch("https://phase-1-main-project-api.onrender.com/produce")
     .then(res => res.json())
     .then(data => {
       allProduce = data;
@@ -116,7 +116,7 @@ document.addEventListener("DOMContentLoaded", () => {
       return;
     }
 
-    fetch("http://localhost:3000/cart")
+    fetch("https://phase-1-main-project-api.onrender.com/cart")
       .then(res => res.json())
       .then(data => {
         const exists = data.some(prod => prod.id === item.id);
@@ -133,7 +133,7 @@ document.addEventListener("DOMContentLoaded", () => {
   function addToCart(item, quantity) {
     const totalAmount = item.price * quantity;
 
-    fetch("http://localhost:3000/cart", {
+    fetch("https://phase-1-main-project-api.onrender.com/cart", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
@@ -158,7 +158,7 @@ document.addEventListener("DOMContentLoaded", () => {
     tabCart.classList.add("active");
     tabProduce.classList.remove("active");
 
-    fetch("http://localhost:3000/cart")
+    fetch("https://phase-1-main-project-api.onrender.com/cart")
       .then(res => res.json())
       .then(data => displayCart(data))
       .catch(err => console.error("Error fetching cart items:", err));
@@ -184,7 +184,7 @@ document.addEventListener("DOMContentLoaded", () => {
       // Delete item
       cartCard.querySelector(".delete-btn").addEventListener("click", () => {
         if (confirm(`Remove ${item.name} from the cart?`)) {
-          fetch(`http://localhost:3000/cart/${item.id}`, { method: "DELETE" })
+          fetch(`https://phase-1-main-project-api.onrender.com/cart/${item.id}`, { method: "DELETE" })
             .then(() => fetchCartItems())
             .catch(err => console.error("Delete error:", err));
         }
@@ -201,7 +201,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
         const updatedTotal = parsedQty * item.price;
 
-        fetch(`http://localhost:3000/cart/${item.id}`, {
+        fetch(`https://phase-1-main-project-api.onrender.com/cart/${item.id}`, {
           method: "PATCH",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify({ quantity: parsedQty, total: updatedTotal })
@@ -277,7 +277,7 @@ document.addEventListener("DOMContentLoaded", () => {
       const deliveryFee = countyFees[formattedCounty];
 
       try {
-        const response = await fetch("http://localhost:3000/cart");
+        const response = await fetch("https://phase-1-main-project-api.onrender.com/cart");
         const cartData = await response.json();
 
         if (cartData.length === 0) {
