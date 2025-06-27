@@ -28,6 +28,8 @@ GreenKart is a responsive and user-friendly web application designed to help use
 
 
 ## How to Use
+**Access the GreenKart Website : https://viviangichuregithub.github.io/Phase-1-Main-Project/
+
  1. **Search for Produce**  
    Type the name of the produce in the search bar.
 
