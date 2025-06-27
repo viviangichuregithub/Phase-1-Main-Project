@@ -44,3 +44,6 @@ GreenKart is a responsive and user-friendly web application designed to help use
 - Frontend Web Developer Frontend Developer | Backend Developer| Kenya
 - **GitHub:** https://github.com/viviangichuregithub/Phase-1-Main-Project
 - **Email:** viviangichure@gmail.com
+## LICENSE
+### MIT LICENSE
+Copyright (c) 2025 viviangichuregithub
